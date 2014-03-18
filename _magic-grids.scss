@@ -84,7 +84,7 @@ $mobile-first:          true!default;
 /**
  * Set the spacing between your grid items.
  */
-$gutter:                24px!default;
+$gutter:                1.5rem!default;
 
 
 /**
@@ -121,10 +121,10 @@ $use-markup-fix:        false!default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-  'palm' '(max-width: 29.99em)',
-  'lap' '(min-width: 30em) and (max-width: 63.99em)',
-  'portable' '(max-width: 63.99em)',
-  'desk' '(min-width: 64em)'
+  'palm' '(max-width: 29.99rem)',
+  'lap' '(min-width: 30rem) and (max-width: 63.99rem)',
+  'portable' '(max-width: 63.99rem)',
+  'desk' '(min-width: 64rem)'
 )!default;
 
 
@@ -216,7 +216,7 @@ $class-type:            unquote(".");
   padding: 0;                      /* [2] */
   margin-left: -$gutter;           /* [3] */
   @if $use-markup-fix != true{
-    letter-spacing: -0.31em;
+    letter-spacing: -0.31rem;
   }
 }
 
@@ -224,7 +224,7 @@ $class-type:            unquote(".");
   /* Opera hack */
   .opera:-o-prefocus,
   #{$class-type}grid{
-    word-spacing: -0.43em;
+    word-spacing: -0.43rem;
   }
 }
 
