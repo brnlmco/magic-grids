@@ -1,0 +1,28 @@
+{
+  "name": "magic-grids",
+  "version": "0.1.0",
+  "description": "A no nonsense declarative grid system written in Sass.",
+  "main": "''",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffjewiss/magic-grids.git"
+  },
+  "keywords": [
+    "grid",
+    "system",
+    "sass",
+    "css"
+  ],
+  "files": [
+    "_magic-grids.scss"
+  ],
+  "author": "Jeff Jewiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffjewiss/magic-grids/issues"
+  },
+  "homepage": "https://github.com/jeffjewiss/magic-grids"
+}
